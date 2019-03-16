@@ -1,0 +1,36 @@
+#myresults {
+    width: 300px;
+    height: 200px;
+    padding: 7px 11px 11px 7px;
+    background: #4ef;
+    border-radius: 10px;
+}
+.question{
+    background: #3A1C71;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding-bottom: 40px;
+
+}
+
+.btn{
+    
+    border-radius: 12px;
+    height: 37px;
+    width: 111px;
+    padding: 6px;
+    margin-right: 5px;
+}
+
+.btn:hover{
+    
+        -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.1);
+    color: #fff;
+    background-color: cornflowerblue;
+    
+}
+
+

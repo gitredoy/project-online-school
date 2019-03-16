@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Header css start*/
+
+.header {
+    height: 100px;
+    background: #fff; 
+
+}
+
+.logo {
+
+    position: relative;
+}
+
+.logo > p {
+    position: absolute;
+    top: 24%;
+    right: 52%;
+    cursor: pointer;
+    color: gray;
+}
+
+.logo > img {
+    max-width: 250px;
+    max-height: 60px;
+    margin-top: 20px;
+    padding-left: 150px;
+}
+
+.tag {
+    position: relative;
+}
+
+.head_menu {
+    margin-top: 35px;
+    margin-right: 128px;
+}
+
+.head_menu > ul {
+    display: inline;
+}
+
+.head_menu > ul > li {
+    list-style: none;
+}
+
+.head_menu > ul > li > a {
+    text-decoration: none;
+    font-weight: unset;
+    color: #333;
+
+}
+
+.head_menu a::after {
+    content: "-";
+    padding-left: 10px;
+}
+
+
+/*Header css end*/
+
+/*Menu css start*/
+
+#nopadding {
+    padding: 0px;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.navbar-nav {
+    margin-left: 200px;
+}
+
+
+.navbar {
+    background: #9F97EA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9F97EA, #9F97EA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9F97EA, #9F97EA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*Menu css end*/
+
+
+/*Bcs practise css start here*/
+
+h1 {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+
+    .brand-pills > li > a {
+        border-top-right-radius: 0px;
+    	border-bottom-right-radius: 0px;
+    }
+    
+    li.brand-nav.active a:after{
+    	content: " ";
+    	display: block;
+    	width: 0;
+    	height: 0;
+    	border-top: 20px solid transparent;
+    	border-bottom: 20px solid transparent;
+    	border-left: 9px solid #428bca;
+    	position: absolute;
+    	top: 50%;
+    	margin-top: -20px;
+    	left: 100%;
+    	z-index: 2;
+    }
+}
+
+/*Bcs practise css end here*/
+
+
+
+
+/*footer css start*/
+
+.footer{
+    background-color: #2F2F2F;
+    height: 400px;
+    margin-top: 50px;
+}
+.f_main{
+    margin-top: 40px;
+
+}
+
+.f_main > h3{
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid lightslategray;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+
+.f_menu{
+    margin-top: 20px;
+}
+.f_menu > ul{
+    
+}
+.f_menu > ul > li{
+   list-style: none;
+    padding-bottom: 16px;
+}
+.f_menu > ul > li > a{
+    color: #999;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+    padding-bottom: 13px;
+    display: block;
+}
+
+
+.f_menu > p{
+    line-height: 27px;
+    color: #999;
+    font-size: 14px;
+    text-align: justify;
+    
+}
+
+.foot_bottom{
+    background-color: #252525;
+    height: 70px;
+}
+
+.f_b_text > p{
+    color: #999;
+    font-size: 14px;
+    padding-top: 28px;
+}
+
+
+/*footer css end*/

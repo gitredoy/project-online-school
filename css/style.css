@@ -1,0 +1,474 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Header css start*/
+
+.header {
+    height: 100px;
+    background: #fff; 
+
+}
+
+.logo {
+
+    position: relative;
+}
+
+.logo > p {
+    position: absolute;
+    top: 24%;
+    right: 52%;
+    cursor: pointer;
+    color: gray;
+}
+
+.logo > img {
+    max-width: 250px;
+    max-height: 60px;
+    margin-top: 20px;
+    padding-left: 150px;
+}
+
+.tag {
+    position: relative;
+}
+
+.head_menu {
+    margin-top: 35px;
+    margin-right: 128px;
+}
+
+.head_menu > ul {
+    display: inline;
+}
+
+.head_menu > ul > li {
+    list-style: none;
+}
+
+.head_menu > ul > li > a {
+    text-decoration: none;
+    font-weight: unset;
+    color: #333;
+
+}
+
+.head_menu a::after {
+    content: "-";
+    padding-left: 10px;
+}
+
+
+/*Header css end*/
+
+/*Menu css start*/
+
+#nopadding {
+    padding: 0px;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.navbar-nav {
+    margin-left: 200px;
+}
+
+
+.navbar {
+background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #8fe0e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 10%;
+}
+
+/*Menu css end*/
+
+/*Slider css start */
+
+.slider {}
+
+.wrapper {
+    /*    height:100vh;*/
+    height: 430px;
+    -webkit-animation: slide 60s linear infinite;
+    background: url(../images/nebula.jpg) repeat;
+    background-position: 120% 100%;
+    background-size: cover;
+    animation: animatebg 60s linear infinite;
+}
+
+.pulse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../images/small.jpg);
+    background-size: cover;
+    animation: animateEarth 12s linear infinite;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 40px rgba(255, 255, 255, .5);
+}
+
+.pulse span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: transpatent;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    animation: animate 6s linear infinite;
+}
+
+.pulse span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.pulse span:nth-child(2) {
+    animation-delay: -4s;
+}
+
+.pulse span:nth-child(3) {
+    animation-delay: 4s;
+}
+
+@keyframes animate {
+    0% {
+        width: 200px;
+        height: 200px;
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        width: 350px;
+        height: 350px;
+        opacity: 0;
+    }
+
+}
+
+
+@keyframes animateEarth {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 719px 0;
+    }
+}
+
+@keyframes animatebg {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 719px 0;
+    }
+}
+
+.slider_txt {
+    position: relative;
+    top: -51%;
+}
+
+.slider_txt > h3 {
+    font-weight: 400;
+    text-align: center;
+    color: cornsilk;
+}
+
+.slider_txt > p {
+    font-weight: 400;
+    text-align: center;
+    color: cornsilk;
+}
+
+
+/*Slider css end */
+
+/*Marquee css start*/
+
+.break {
+
+    margin-top: -81px;
+}
+
+/*Marquee css end*/
+
+/*Last chapter css start*/
+
+.chapter_1 > h3 {
+    font-size: 24px;
+    background-color: cornflowerblue;
+    max-width: 170px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+
+.chapter_1::after {
+    content: " ";
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    display: table-cell;
+    width: 1111px;
+    position: absolute;
+    top: 83%;
+    color: cornflowerblue;
+
+}
+
+.chapter_group::after {
+    content: "2017-06-18 01:00:18";
+    background-color: black;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 5px 1px 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 5%;
+    right: 47%;
+}
+
+.chapter_group > h4 {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    width: 80%;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.chapter_group > p {
+    font-size: 9px;
+    color: gray;
+    margin-top: -5px;
+    text-align: left;
+    width: 48%;
+    cursor: pointer;
+}
+
+.chapter_group > h4:hover {
+    color: darkorange;
+}
+
+.question {
+    width: 100%;
+
+}
+
+.question > p {
+    float: left;
+    font-size: 14px;
+    color: darkorange;
+}
+
+.question > img {
+    height: 25px;
+    width: auto;
+    float: right;
+}
+
+/*Last chapter css end*/
+
+/*সর্বশেষ পরীক্ষা css start*/
+
+.exam_1 > h3 {
+    font-size: 24px;
+    background-color: cornflowerblue;
+    max-width: 172px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+
+.exam_1::after {
+    content: " ";
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    display: table-cell;
+    width: 1111px;
+    position: absolute;
+    top: 83%;
+    color: cornflowerblue;
+
+}
+
+/*N.B-> another css used from  last chapter css section  */
+
+/*সর্বশেষ পরীক্ষা css end*/
+
+/*News css start*/
+
+.news_1 > h3 {
+    font-size: 24px;
+    background-color: cornflowerblue;
+    max-width: 172px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    float: left;
+}
+
+.news_1::after {
+    content: " ";
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    display: table-cell;
+    width: 630px;
+    position: absolute;
+    top: 83%;
+    color: cornflowerblue;
+
+}
+
+#news_btn {
+    float: right;
+    border: 2px solid cornflowerblue;
+    width: 14%;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+#news_btn:hover {
+    background-color: cornflowerblue;
+}
+
+.live > h3 {
+    font-size: 24px;
+    background-color: cornflowerblue;
+    max-width: 172px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    float: left;
+}
+
+.live::after {
+    content: " ";
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    display: table-cell;
+    width: 351px;
+    position: absolute;
+    top: 83%;
+    color: cornflowerblue;
+
+}
+
+.content_left > img {
+    width: 100%;
+}
+
+.content_left > h3 {
+    margin-top: 25px;
+    font-size: 22px;
+    color: rebeccapurple;
+}
+
+.content_left > h3::after {
+    content: " ";
+    border-bottom-style: ridge;
+    border-bottom-width: 1px;
+    display: table-cell;
+    width: 317px;
+    padding-top: 15px;
+}
+
+.content_left > p {
+    font-size: 12px;
+    text-align: left;
+}
+
+#content_btn{
+    width: 26%;
+    font-size: 11px;
+    padding: 1px 2px 1px 1px;
+    background-color: burlywood;
+    color: white;
+}
+
+/*News css end*/
+
+/*footer css start*/
+
+.footer{
+    background-color: #2F2F2F;
+    height: 400px;
+    margin-top: 50px;
+}
+.f_main{
+    margin-top: 40px;
+
+}
+
+.f_main > h3{
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid lightslategray;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+
+.f_menu{
+    margin-top: 20px;
+}
+.f_menu > ul{
+    
+}
+.f_menu > ul > li{
+   list-style: none;
+    padding-bottom: 16px;
+}
+.f_menu > ul > li > a{
+    color: #999;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+    padding-bottom: 13px;
+    display: block;
+}
+
+
+.f_menu > p{
+    line-height: 27px;
+    color: #999;
+    font-size: 14px;
+    text-align: justify;
+    
+}
+
+.foot_bottom{
+    background-color: #252525;
+    height: 70px;
+}
+
+.f_b_text > p{
+    color: #999;
+    font-size: 14px;
+    padding-top: 28px;
+}
+
+/*footer css end*/

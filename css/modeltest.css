@@ -1,0 +1,326 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Header css start*/
+
+.header {
+    height: 100px;
+    background: #fff; 
+
+}
+
+.logo {
+
+    position: relative;
+}
+
+.logo > p {
+    position: absolute;
+    top: 24%;
+    right: 52%;
+    cursor: pointer;
+    color: gray;
+}
+
+.logo > img {
+    max-width: 250px;
+    max-height: 60px;
+    margin-top: 20px;
+    padding-left: 150px;
+}
+
+.tag {
+    position: relative;
+}
+
+.head_menu {
+    margin-top: 35px;
+    margin-right: 128px;
+}
+
+.head_menu > ul {
+    display: inline;
+}
+
+.head_menu > ul > li {
+    list-style: none;
+}
+
+.head_menu > ul > li > a {
+    text-decoration: none;
+    font-weight: unset;
+    color: #333;
+
+}
+
+.head_menu a::after {
+    content: "-";
+    padding-left: 10px;
+}
+
+
+/*Header css end*/
+
+/*Menu css start*/
+
+#nopadding {
+    padding: 0px;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.navbar-nav {
+    margin-left: 200px;
+}
+
+
+.navbar {
+    background: #9F97EA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9F97EA, #9F97EA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9F97EA, #9F97EA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*Menu css end*/
+
+/*SVG css start here */
+.svg_img > img{
+    width: 100%;
+    height: 380px;
+}
+
+/*SVG css end here*/
+
+/*STUDY CSS START*/
+
+.s_main{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.s_main h3{
+background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+margin: -10px;
+text-align: center;
+padding: 10px;
+}
+.s_menu{
+    margin-top: 40px;
+
+}
+
+.s_menu > h3{
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid lightslategray;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.s_menu > ul{
+    
+}
+.s_menu > ul > li{
+   list-style: none;
+    padding-bottom: 16px;
+}
+.s_menu > ul > li > a{
+    color: #999;
+    font-size: 15px;
+    border-bottom: 1px solid beige;
+    padding-bottom: 13px;
+    display: block;
+}
+
+.s_menu > ul > li > a:hover{
+    text-decoration: none;
+    color:chocolate;
+    transition: all 0.1s linear 0s
+}
+
+#s_txt{
+        float: right;
+    background-color: gray;
+    padding: 0px 11px 0px 10px;
+    color: white;
+    font-size: 15px;
+    text-transform: lowercase;
+    border-radius: 11px;
+}
+
+
+#lec{
+    position: absolute;
+    top: 15%;
+    background: gray;
+    color: white;
+    font-size: 10px;
+    padding: 2px;
+    /* border-radius: 8px; */
+    right: 50%;
+}
+
+/*
+#l_flex{
+    border-right: 1px solid gray;
+    cursor: pointer;
+}
+*/
+
+.p-2 > a{
+    color: darkolivegreen;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 13px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.p-3 > a{
+    color: darkolivegreen;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 13px;
+    padding: 42px;
+    font-weight: bold;
+}
+
+#lec_ico{
+        padding-right: 0px;
+}
+
+.s_middle{
+    border: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+
+.lecture{
+        
+-webkit-box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.25);
+box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.25);
+} 
+
+.lec_img{
+    background-color: #EFEFEF;
+}
+
+.lec_txt{
+    margin-left: 18px;
+}
+
+.lec_right{
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.lec_right > h4{
+    background-color: #F9F9F9;
+    padding: 8px;
+    padding-left: 40px;
+}
+
+.l_cont_left > p{
+        font-size: 14px;
+}
+
+#pp_1 > a{
+    color: gray;
+    font-weight: normal;
+    border: 1px solid;
+    margin-left: -16px;
+    cursor: pointer;
+    background-color: #F9F9F9;
+}
+
+#pp_1 > a:hover {
+    color: navajowhite;
+    background-color: cornflowerblue;
+}
+
+.l_cont_left{
+    margin-left: 40px;
+}
+
+.l_cont_right{
+    float: right;
+}
+
+/*STUDY CSS END*/
+
+
+
+
+
+
+
+
+
+/*footer css start*/
+
+.footer{
+    background-color: #2F2F2F;
+    height: 400px;
+    margin-top: 50px;
+}
+.f_main{
+    margin-top: 40px;
+
+}
+
+.f_main > h3{
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid lightslategray;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+
+.f_menu{
+    margin-top: 20px;
+}
+.f_menu > ul{
+    
+}
+.f_menu > ul > li{
+   list-style: none;
+    padding-bottom: 16px;
+}
+.f_menu > ul > li > a{
+    color: #999;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+    padding-bottom: 13px;
+    display: block;
+}
+
+
+.f_menu > p{
+    line-height: 27px;
+    color: #999;
+    font-size: 14px;
+    text-align: justify;
+    
+}
+
+.foot_bottom{
+    background-color: #252525;
+    height: 70px;
+}
+
+.f_b_text > p{
+    color: #999;
+    font-size: 14px;
+    padding-top: 28px;
+}
+
+
+/*footer css end*/
